@@ -2,4 +2,19 @@
 #4C5FD5 - azul 
 #dadbf1 -cinza
 #000000 - preto
-#fff - branco */
+GT America Standard', sans-serif;*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+}
+
+#area-conteudo {
+    background: #0000ff;
+            }
+#foot {
+    background: black;
+    color: white ;
+}
