@@ -6,15 +6,49 @@ GT America Standard', sans-serif;*/
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body {
+    height: 100%;
     font-family: sans-serif;
 }
 
 #area-conteudo {
     background: #0000ff;
             }
-#foot {
-    background: black;
+
+#footer {
+   background: black;
     color: white ;
+}
+
+#conteiner-footer{
+    margin-left: 90px;
+    margin-right: 90px;
+    background:black;
+    color: white;
+}
+
+#footer-column{
+padding-top: 35px;
+}
+
+#sem-marcadores{
+    list-style-type: none;
+    line-height:25px;
+}
+
+a{
+    text-decoration:none;
+    color: white; 
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #f0f0f0;  
+}
+
+
+.texto {
+    margin-right: 20px;
 }
