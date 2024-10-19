@@ -2,7 +2,8 @@
 #4C5FD5 - azul 
 #dadbf1 -cinza
 #000000 - preto
-GT America Standard', sans-serif;*/
+GT America Standard', sans-serif;
+&#8594; - seta para direita*/
 * {
     margin: 0;
     padding: 0;
@@ -60,9 +61,35 @@ header{
    
 }
 
+#title-style{
+    line-height: 2;
+}
+
 #area-conteudo {
-    background: #0000ff;
-            }
+    background: #fff;
+    margin-top: 100px;
+    margin-left: 270px;
+}
+
+#texto-conteudo{
+    width: 100%;              
+    max-width: 250px;                   
+    line-height: 1.5;          
+    font-size: 16px;           
+    overflow-wrap: break-word; 
+    word-wrap: break-word;     
+    text-align: justify;       
+    word-break: break-word;
+}
+
+#link-conteudo{
+    text-decoration:none;
+    color: #4C5FD5;
+    font-size:medium;
+}
+#link-conteudo:hover{
+    text-decoration: underline; 
+}
 
 #footer {
    background: black;
@@ -70,8 +97,10 @@ header{
 }
 
 #conteiner-footer{
+    margin-top: 50px;
     margin-left: 90px;
-    margin-bottom:30px;
+    padding-bottom:0px;
+
 }
 
 #footer-column{
@@ -90,18 +119,19 @@ a{
 }
 
 a:hover{
-    text-decoration: underline;
-    color: #f0f0f0;  
+    text-decoration: underline; 
 }
 
 
 #footer-total{
     justify-content: space-between;
     display:flex;
-    margin-right: 800px;
+    margin-right: 650px;
 }
 
-#sem-marcadores-contact{
-    list-style-type: none;
-    line-height:0px;
+#copyright-footer{
+    text-align: left;
+    margin-right: 90px;
+    margin-left: 900px;
+    font-weight:650;
 }
