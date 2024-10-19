@@ -87,22 +87,22 @@ header{
 
 /* fim parte Arthur/Começo parte Cosca */
 
-#conteudo {
+#conteiner-conteudo {
     background: #fff;
+    max-width: 375px; 
     margin-top: 100px;
     margin-left: 270px;
-    line-height: 2
+    display: flexbox;
 }
 
 #texto-conteudo{
     width: 100%;              
-    max-width: 250px;                   
+    max-width: 300px;                   
     line-height: 1.5;          
-    font-size: 16px;           
-    overflow-wrap: break-word; 
-    word-wrap: break-word;     
+    font-size: 18px;           
+    overflow-wrap: break-word;   
     text-align: justify;       
-    word-break: break-word;
+    margin-bottom: 70px;
 }
 
 #link-conteudo{
@@ -160,7 +160,6 @@ a:hover{
     margin-left: 900px;
     font-weight:650;
     transform: translateY(-40px);
-    font-size: large;
     font-weight: lighter;
     list-style-type: none;
     line-height:25px;
