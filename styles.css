@@ -19,7 +19,7 @@ header{
     font-weight: 500;
     background: black;
     color: white;
-    height: 90px;
+    height: 80px;
     display: flex;
     align-items: center;
 }
@@ -63,8 +63,8 @@ header{
 }
 
 #botao1{
-    padding: 10px 25px;
-    font-size: 22px;
+    padding: 8px 18px;
+    font-size: 20px;
     background: rgb(30, 30, 31);
     color: white;
     border: 2px solid rgb(255, 255, 255);
@@ -72,8 +72,8 @@ header{
 }
 #botao2{
     border: 1px solid black;
-    padding: 12px 25px;
-    font-size: 22px;
+    padding: 8px 18px;
+    font-size: 20px;
     background: rgb(75, 88, 188);
     color: white;
     border-radius: 10px;
@@ -84,6 +84,50 @@ header{
 #botao2:hover{
     background-color: white;
     color: black;
+}
+#area-pesquisa{
+    display: flex;
+    height: 300px;
+    background:#dadbf1 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#titulo-1{
+    justify-self: center;
+    font-size: 40px;
+   
+}
+#search-cotainer{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 1px;
+    
+}
+#input-search{
+    border-right: 0px;
+    border: none;
+    width: 500px;
+    padding: 10px;
+    font-size: 15px;
+}
+#input-search:focus{
+outline: none;
+}
+
+#botao-search{
+    border: none;
+    padding: 0px 10px;
+    font-size: 30px;
+    font-weight: 900;
+    color: rgb(0, 0, 0); 
+    border-left: 0px;
+   
+}   
+#botao-search:hover{
+   color: #444040;
 }
 
 /* fim parte Arthur/Começo parte Cosca */
