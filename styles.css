@@ -1,9 +1,3 @@
-/*Color Palette:
-#4C5FD5 - azul 
-#dadbf1 -cinza
-#000000 - preto
-GT America Standard', sans-serif;
-&#8594; - seta para direita*/
 * {
     margin: 0;
     padding: 0;
@@ -130,7 +124,6 @@ outline: none;
    color: #444040;
 }
 
-/* fim parte Arthur/Começo parte Cosca */
 
 #conteiner-conteudo {
     background: #fff;
